@@ -26,6 +26,7 @@ namespace WSC2018_TP09_S3
             FilllComboDestino();
 
             FillTableSalida();
+            Console.WriteLine(Environment.CurrentDirectory);
         }
 
         private void FillTableSalida()

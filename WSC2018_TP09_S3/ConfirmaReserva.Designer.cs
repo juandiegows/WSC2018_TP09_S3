@@ -67,7 +67,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.DTUser = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -97,7 +97,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(779, 144);
+            this.groupBox1.Size = new System.Drawing.Size(783, 144);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalle de vuelo de salida";
@@ -109,7 +109,7 @@
             this.lblVueloD.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVueloD.Location = new System.Drawing.Point(363, 98);
             this.lblVueloD.Name = "lblVueloD";
-            this.lblVueloD.Size = new System.Drawing.Size(124, 23);
+            this.lblVueloD.Size = new System.Drawing.Size(102, 19);
             this.lblVueloD.TabIndex = 0;
             this.lblVueloD.Text = "Tipo cabina";
             // 
@@ -119,7 +119,7 @@
             this.lblFechaD.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaD.Location = new System.Drawing.Point(109, 98);
             this.lblFechaD.Name = "lblFechaD";
-            this.lblFechaD.Size = new System.Drawing.Size(124, 23);
+            this.lblFechaD.Size = new System.Drawing.Size(102, 19);
             this.lblFechaD.TabIndex = 0;
             this.lblFechaD.Text = "Tipo cabina";
             // 
@@ -129,7 +129,7 @@
             this.lblCabinaD.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCabinaD.Location = new System.Drawing.Point(522, 44);
             this.lblCabinaD.Name = "lblCabinaD";
-            this.lblCabinaD.Size = new System.Drawing.Size(124, 23);
+            this.lblCabinaD.Size = new System.Drawing.Size(102, 19);
             this.lblCabinaD.TabIndex = 0;
             this.lblCabinaD.Text = "Tipo cabina";
             // 
@@ -139,7 +139,7 @@
             this.lblDestinoD.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDestinoD.Location = new System.Drawing.Point(285, 44);
             this.lblDestinoD.Name = "lblDestinoD";
-            this.lblDestinoD.Size = new System.Drawing.Size(124, 23);
+            this.lblDestinoD.Size = new System.Drawing.Size(102, 19);
             this.lblDestinoD.TabIndex = 0;
             this.lblDestinoD.Text = "Tipo cabina";
             // 
@@ -149,7 +149,7 @@
             this.lblOrigenD.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOrigenD.Location = new System.Drawing.Point(85, 44);
             this.lblOrigenD.Name = "lblOrigenD";
-            this.lblOrigenD.Size = new System.Drawing.Size(124, 23);
+            this.lblOrigenD.Size = new System.Drawing.Size(102, 19);
             this.lblOrigenD.TabIndex = 0;
             this.lblOrigenD.Text = "Tipo cabina";
             // 
@@ -158,7 +158,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(249, 98);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 23);
+            this.label9.Size = new System.Drawing.Size(76, 21);
             this.label9.TabIndex = 0;
             this.label9.Text = "N° Vuelo";
             // 
@@ -167,7 +167,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(12, 98);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 23);
+            this.label7.Size = new System.Drawing.Size(59, 21);
             this.label7.TabIndex = 0;
             this.label7.Text = "Fecha";
             // 
@@ -176,7 +176,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(402, 44);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 23);
+            this.label5.Size = new System.Drawing.Size(105, 21);
             this.label5.TabIndex = 0;
             this.label5.Text = "Tipo Cabina";
             // 
@@ -185,7 +185,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(202, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 23);
+            this.label2.Size = new System.Drawing.Size(68, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Destino";
             // 
@@ -194,7 +194,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 23);
+            this.label1.Size = new System.Drawing.Size(63, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Origen";
             // 
@@ -213,7 +213,7 @@
             this.GBRegreso.Dock = System.Windows.Forms.DockStyle.Top;
             this.GBRegreso.Location = new System.Drawing.Point(0, 144);
             this.GBRegreso.Name = "GBRegreso";
-            this.GBRegreso.Size = new System.Drawing.Size(779, 144);
+            this.GBRegreso.Size = new System.Drawing.Size(783, 144);
             this.GBRegreso.TabIndex = 2;
             this.GBRegreso.TabStop = false;
             this.GBRegreso.Text = "Detalle de vuelo de regreso";
@@ -224,7 +224,7 @@
             this.lblVueloS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVueloS.Location = new System.Drawing.Point(363, 98);
             this.lblVueloS.Name = "lblVueloS";
-            this.lblVueloS.Size = new System.Drawing.Size(124, 23);
+            this.lblVueloS.Size = new System.Drawing.Size(102, 19);
             this.lblVueloS.TabIndex = 0;
             this.lblVueloS.Text = "Tipo cabina";
             // 
@@ -234,7 +234,7 @@
             this.lblFechaS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaS.Location = new System.Drawing.Point(109, 98);
             this.lblFechaS.Name = "lblFechaS";
-            this.lblFechaS.Size = new System.Drawing.Size(124, 23);
+            this.lblFechaS.Size = new System.Drawing.Size(102, 19);
             this.lblFechaS.TabIndex = 0;
             this.lblFechaS.Text = "Tipo cabina";
             // 
@@ -244,7 +244,7 @@
             this.lblCabinaS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCabinaS.Location = new System.Drawing.Point(522, 44);
             this.lblCabinaS.Name = "lblCabinaS";
-            this.lblCabinaS.Size = new System.Drawing.Size(124, 23);
+            this.lblCabinaS.Size = new System.Drawing.Size(102, 19);
             this.lblCabinaS.TabIndex = 0;
             this.lblCabinaS.Text = "Tipo cabina";
             // 
@@ -254,7 +254,7 @@
             this.lblDestinoS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDestinoS.Location = new System.Drawing.Point(285, 44);
             this.lblDestinoS.Name = "lblDestinoS";
-            this.lblDestinoS.Size = new System.Drawing.Size(124, 23);
+            this.lblDestinoS.Size = new System.Drawing.Size(102, 19);
             this.lblDestinoS.TabIndex = 0;
             this.lblDestinoS.Text = "Tipo cabina";
             // 
@@ -264,7 +264,7 @@
             this.lblOrigenS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOrigenS.Location = new System.Drawing.Point(85, 44);
             this.lblOrigenS.Name = "lblOrigenS";
-            this.lblOrigenS.Size = new System.Drawing.Size(124, 23);
+            this.lblOrigenS.Size = new System.Drawing.Size(102, 19);
             this.lblOrigenS.TabIndex = 0;
             this.lblOrigenS.Text = "Tipo cabina";
             // 
@@ -273,7 +273,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(249, 98);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(97, 23);
+            this.label16.Size = new System.Drawing.Size(76, 21);
             this.label16.TabIndex = 0;
             this.label16.Text = "N° Vuelo";
             // 
@@ -282,7 +282,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(12, 98);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 23);
+            this.label17.Size = new System.Drawing.Size(59, 21);
             this.label17.TabIndex = 0;
             this.label17.Text = "Fecha";
             // 
@@ -291,7 +291,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(402, 44);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(127, 23);
+            this.label18.Size = new System.Drawing.Size(105, 21);
             this.label18.TabIndex = 0;
             this.label18.Text = "Tipo Cabina";
             // 
@@ -300,7 +300,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(202, 44);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(81, 23);
+            this.label19.Size = new System.Drawing.Size(68, 21);
             this.label19.TabIndex = 0;
             this.label19.Text = "Destino";
             // 
@@ -309,7 +309,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(7, 44);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(74, 23);
+            this.label20.Size = new System.Drawing.Size(63, 21);
             this.label20.TabIndex = 0;
             this.label20.Text = "Origen";
             // 
@@ -333,7 +333,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox3.Location = new System.Drawing.Point(0, 288);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(779, 261);
+            this.groupBox3.Size = new System.Drawing.Size(783, 261);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos de pasajero";
@@ -343,7 +343,7 @@
             this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.ForeColor = System.Drawing.Color.Green;
-            this.btnAgregar.Location = new System.Drawing.Point(349, 208);
+            this.btnAgregar.Location = new System.Drawing.Point(353, 208);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(239, 33);
             this.btnAgregar.TabIndex = 7;
@@ -356,7 +356,7 @@
             this.btnBuscarFoto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuscarFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarFoto.ForeColor = System.Drawing.Color.Green;
-            this.btnBuscarFoto.Location = new System.Drawing.Point(617, 220);
+            this.btnBuscarFoto.Location = new System.Drawing.Point(621, 220);
             this.btnBuscarFoto.Name = "btnBuscarFoto";
             this.btnBuscarFoto.Size = new System.Drawing.Size(132, 33);
             this.btnBuscarFoto.TabIndex = 7;
@@ -367,7 +367,7 @@
             // PBImagen
             // 
             this.PBImagen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PBImagen.Location = new System.Drawing.Point(620, 63);
+            this.PBImagen.Location = new System.Drawing.Point(624, 63);
             this.PBImagen.Name = "PBImagen";
             this.PBImagen.Size = new System.Drawing.Size(129, 140);
             this.PBImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -379,7 +379,7 @@
             this.dtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtFecha.Location = new System.Drawing.Point(20, 208);
             this.dtFecha.Name = "dtFecha";
-            this.dtFecha.Size = new System.Drawing.Size(260, 32);
+            this.dtFecha.Size = new System.Drawing.Size(260, 27);
             this.dtFecha.TabIndex = 3;
             // 
             // cmbPais
@@ -387,43 +387,43 @@
             this.cmbPais.FormattingEnabled = true;
             this.cmbPais.Location = new System.Drawing.Point(424, 104);
             this.cmbPais.Name = "cmbPais";
-            this.cmbPais.Size = new System.Drawing.Size(194, 31);
+            this.cmbPais.Size = new System.Drawing.Size(194, 29);
             this.cmbPais.TabIndex = 2;
             // 
             // txtApellido
             // 
             this.txtApellido.Location = new System.Drawing.Point(428, 33);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(235, 32);
-            this.txtApellido.TabIndex = 1;
+            this.txtApellido.Size = new System.Drawing.Size(235, 27);
+            this.txtApellido.TabIndex = 2;
             // 
             // txtTelefono
             // 
             this.txtTelefono.Location = new System.Drawing.Point(104, 120);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(235, 32);
-            this.txtTelefono.TabIndex = 1;
+            this.txtTelefono.Size = new System.Drawing.Size(235, 27);
+            this.txtTelefono.TabIndex = 5;
             // 
             // txtPassport
             // 
             this.txtPassport.Location = new System.Drawing.Point(176, 73);
             this.txtPassport.Name = "txtPassport";
-            this.txtPassport.Size = new System.Drawing.Size(235, 32);
-            this.txtPassport.TabIndex = 1;
+            this.txtPassport.Size = new System.Drawing.Size(235, 27);
+            this.txtPassport.TabIndex = 3;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(93, 30);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(235, 32);
-            this.txtNombre.TabIndex = 1;
+            this.txtNombre.Size = new System.Drawing.Size(235, 27);
+            this.txtNombre.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(349, 36);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.Size = new System.Drawing.Size(80, 21);
             this.label4.TabIndex = 0;
             this.label4.Text = "Apellidos";
             // 
@@ -432,7 +432,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(424, 76);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 23);
+            this.label8.Size = new System.Drawing.Size(39, 21);
             this.label8.TabIndex = 0;
             this.label8.Text = "Pais";
             // 
@@ -441,7 +441,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(16, 173);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(190, 23);
+            this.label11.Size = new System.Drawing.Size(154, 21);
             this.label11.TabIndex = 0;
             this.label11.Text = "Fecha Nacimiento";
             // 
@@ -450,7 +450,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(12, 123);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 23);
+            this.label10.Size = new System.Drawing.Size(76, 21);
             this.label10.TabIndex = 0;
             this.label10.Text = "Telefono";
             // 
@@ -459,7 +459,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(14, 73);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(195, 23);
+            this.label6.Size = new System.Drawing.Size(156, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "Numero Pasaporte";
             // 
@@ -468,34 +468,35 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(14, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 23);
+            this.label3.Size = new System.Drawing.Size(73, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "Nombre";
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button3);
+            this.groupBox4.Controls.Add(this.btnEliminar);
             this.groupBox4.Controls.Add(this.DTUser);
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox4.Location = new System.Drawing.Point(0, 549);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(10);
-            this.groupBox4.Size = new System.Drawing.Size(779, 173);
+            this.groupBox4.Size = new System.Drawing.Size(783, 173);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Lista de pasajero";
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(554, 136);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(215, 31);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Eliminar Pasajero";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ForeColor = System.Drawing.Color.Red;
+            this.btnEliminar.Location = new System.Drawing.Point(558, 136);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(215, 31);
+            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.Text = "Eliminar Pasajero";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // DTUser
             // 
@@ -509,7 +510,8 @@
             this.DTUser.Name = "DTUser";
             this.DTUser.ReadOnly = true;
             this.DTUser.RowHeadersWidth = 51;
-            this.DTUser.Size = new System.Drawing.Size(758, 97);
+            this.DTUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DTUser.Size = new System.Drawing.Size(762, 97);
             this.DTUser.TabIndex = 0;
             this.DTUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DTUser_CellClick);
             // 
@@ -520,7 +522,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 722);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(779, 74);
+            this.panel1.Size = new System.Drawing.Size(783, 74);
             this.panel1.TabIndex = 5;
             // 
             // button1
@@ -528,19 +530,20 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(391, 17);
+            this.button1.Location = new System.Drawing.Point(393, 17);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(225, 40);
             this.button1.TabIndex = 6;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnRegresar
             // 
             this.btnRegresar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.ForeColor = System.Drawing.Color.Green;
-            this.btnRegresar.Location = new System.Drawing.Point(160, 17);
+            this.btnRegresar.Location = new System.Drawing.Point(162, 17);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(225, 40);
             this.btnRegresar.TabIndex = 6;
@@ -551,12 +554,13 @@
             // OpenFileJD
             // 
             this.OpenFileJD.FileName = "openFileDialog1";
-            this.OpenFileJD.Filter = "Image|*.jpg";
+            this.OpenFileJD.Filter = "Image|*.jpg;*.jpeg;*.png";
             // 
             // ConfirmaReserva
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox4);
@@ -629,6 +633,6 @@
         private System.Windows.Forms.DataGridView DTUser;
         private System.Windows.Forms.OpenFileDialog OpenFileJD;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

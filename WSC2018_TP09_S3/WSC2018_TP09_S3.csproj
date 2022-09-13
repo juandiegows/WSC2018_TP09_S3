@@ -101,6 +101,7 @@
     <Compile Include="ConfirmaReserva.Designer.cs">
       <DependentUpon>ConfirmaReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper\Util.cs" />
     <Compile Include="Model\Aircrafts.cs">
       <DependentUpon>ModelSession3.tt</DependentUpon>
     </Compile>
@@ -211,9 +212,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
