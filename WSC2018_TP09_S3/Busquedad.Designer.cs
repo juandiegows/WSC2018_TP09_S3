@@ -86,7 +86,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(10, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(763, 228);
+            this.groupBox1.Size = new System.Drawing.Size(780, 228);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Paramentros de busquedad";
@@ -96,7 +96,7 @@
             this.btnAplicar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAplicar.ForeColor = System.Drawing.Color.Green;
-            this.btnAplicar.Location = new System.Drawing.Point(654, 182);
+            this.btnAplicar.Location = new System.Drawing.Point(671, 182);
             this.btnAplicar.Name = "btnAplicar";
             this.btnAplicar.Size = new System.Drawing.Size(103, 40);
             this.btnAplicar.TabIndex = 4;
@@ -219,7 +219,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(10, 238);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(763, 221);
+            this.panel1.Size = new System.Drawing.Size(780, 221);
             this.panel1.TabIndex = 1;
             // 
             // groupBox2
@@ -231,7 +231,7 @@
             this.groupBox2.Location = new System.Drawing.Point(11, 28);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(10, 10, 20, 10);
-            this.groupBox2.Size = new System.Drawing.Size(746, 190);
+            this.groupBox2.Size = new System.Drawing.Size(763, 190);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Detalle de vuelo de salida";
@@ -249,14 +249,14 @@
             this.dgvSalida.ReadOnly = true;
             this.dgvSalida.RowHeadersWidth = 51;
             this.dgvSalida.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSalida.Size = new System.Drawing.Size(716, 150);
+            this.dgvSalida.Size = new System.Drawing.Size(733, 150);
             this.dgvSalida.TabIndex = 0;
             // 
             // cb3diasSalida
             // 
             this.cb3diasSalida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cb3diasSalida.AutoSize = true;
-            this.cb3diasSalida.Location = new System.Drawing.Point(482, 6);
+            this.cb3diasSalida.Location = new System.Drawing.Point(499, 6);
             this.cb3diasSalida.Name = "cb3diasSalida";
             this.cb3diasSalida.Size = new System.Drawing.Size(275, 25);
             this.cb3diasSalida.TabIndex = 0;
@@ -271,7 +271,7 @@
             this.PRegreso.Dock = System.Windows.Forms.DockStyle.Top;
             this.PRegreso.Location = new System.Drawing.Point(10, 459);
             this.PRegreso.Name = "PRegreso";
-            this.PRegreso.Size = new System.Drawing.Size(763, 221);
+            this.PRegreso.Size = new System.Drawing.Size(780, 221);
             this.PRegreso.TabIndex = 2;
             // 
             // groupBox3
@@ -283,7 +283,7 @@
             this.groupBox3.Location = new System.Drawing.Point(11, 28);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(10, 10, 20, 10);
-            this.groupBox3.Size = new System.Drawing.Size(746, 190);
+            this.groupBox3.Size = new System.Drawing.Size(763, 190);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Detalle de vuelo de regreso";
@@ -298,14 +298,14 @@
             this.dgvRegreso.Name = "dgvRegreso";
             this.dgvRegreso.RowHeadersWidth = 51;
             this.dgvRegreso.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvRegreso.Size = new System.Drawing.Size(716, 150);
+            this.dgvRegreso.Size = new System.Drawing.Size(733, 150);
             this.dgvRegreso.TabIndex = 1;
             // 
             // cbRegreso
             // 
             this.cbRegreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbRegreso.AutoSize = true;
-            this.cbRegreso.Location = new System.Drawing.Point(482, 3);
+            this.cbRegreso.Location = new System.Drawing.Point(499, 3);
             this.cbRegreso.Name = "cbRegreso";
             this.cbRegreso.Size = new System.Drawing.Size(275, 25);
             this.cbRegreso.TabIndex = 0;
@@ -320,7 +320,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(10, 680);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(763, 162);
+            this.panel2.Size = new System.Drawing.Size(780, 162);
             this.panel2.TabIndex = 3;
             // 
             // groupBox4
@@ -329,7 +329,7 @@
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.btnReservar);
             this.groupBox4.Controls.Add(this.nudPasaje);
-            this.groupBox4.Location = new System.Drawing.Point(99, 33);
+            this.groupBox4.Location = new System.Drawing.Point(108, 33);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(473, 103);
             this.groupBox4.TabIndex = 6;
@@ -370,7 +370,7 @@
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.ForeColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(654, 109);
+            this.btnExit.Location = new System.Drawing.Point(671, 109);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(103, 40);
             this.btnExit.TabIndex = 5;
@@ -382,7 +382,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(800, 525);
+            this.ClientSize = new System.Drawing.Size(817, 525);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.PRegreso);
             this.Controls.Add(this.panel1);

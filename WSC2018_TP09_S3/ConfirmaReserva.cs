@@ -59,6 +59,7 @@ namespace WSC2018_TP09_S3
             txtPassport.Requerido();
             txtTelefono.Requerido();
             txtTelefono.SoloNumero();
+            PBImagen.Requerido();
         }
         private void ConfirmaReserva_Load(object sender, EventArgs e)
         {
@@ -193,7 +194,15 @@ namespace WSC2018_TP09_S3
             }
             if(MessageBox.Show("¿desea generar el booking", "Pregunta", MessageBoxButtons.YesNo) == DialogResult.No)
             {
-                MessageBox.Show($"operaciones cancelada");
+                MessageBox.Show($"operacion cancelada");
+                return;
+            }
+            double num = (Cantidad * ObtenerPrecio(Cabin.ID, vueloSalida.EconomyPrice));
+            if(vueloRegreso != null)
+            num += (Cantidad * ObtenerPrecio(Cabin.ID, vueloRegreso.EconomyPrice));
+            if (new ConfirmarPago(num).ShowDialog() == DialogResult.Cancel)
+            {
+                MessageBox.Show($"operacion cancelada");
                 return;
             }
             if (!File.Exists($"{Environment.CurrentDirectory}/img/passport"))
@@ -207,23 +216,27 @@ namespace WSC2018_TP09_S3
             int cantSave = 0;
             foreach (var item in usuarios)
             {
-             
-                Image img = PBImagen.Image;
-                using (MemoryStream ms = new MemoryStream())
+
+                if (item.Photo != null)
                 {
-                    img.Save(ms, ImageFormat.Jpeg);
-                    //using (FileStream fs = new FileStream($"{Environment.CurrentDirectory}/img/passport/{item.Numero}.jpg", FileMode.OpenOrCreate))
-                    //{
-                    //    fs.Write(ms.ToArray(), 0, ms.ToArray().Length);
-                    //    fs.Close();
-                    //}
-                    using (FileStream fs = File.Create($"{Environment.CurrentDirectory}/img/passport/{item.Numero}.jpg"))
+                    Image img = PBImagen.Image;
+                    using (MemoryStream ms = new MemoryStream())
                     {
-                        fs.Write(ms.ToArray(), 0, ms.ToArray().Length);
-                        fs.Close();
+                        img.Save(ms, ImageFormat.Jpeg);
+                        //using (FileStream fs = new FileStream($"{Environment.CurrentDirectory}/img/passport/{item.Numero}.jpg", FileMode.OpenOrCreate))
+                        //{
+                        //    fs.Write(ms.ToArray(), 0, ms.ToArray().Length);
+                        //    fs.Close();
+                        //}
+                        using (FileStream fs = File.Create($"{Environment.CurrentDirectory}/img/passport/{item.Numero}.jpg"))
+                        {
+                            fs.Write(ms.ToArray(), 0, ms.ToArray().Length);
+                            fs.Close();
+                        }
+                        ms.Close();
                     }
-                    ms.Close();
                 }
+            
                 using (session3Entities model = new session3Entities())
                 {
 
@@ -268,6 +281,20 @@ namespace WSC2018_TP09_S3
             this.ClearAll();
             MessageBox.Show($"se ha generado {cantSave} de tiquetes");
             
+        }
+
+        private double ObtenerPrecio(int cabina, double precio)
+        {
+
+            if (cabina == 2 || cabina == 3)
+            {
+                precio += precio * 0.30;
+            }
+            if (cabina == 3)
+            {
+                precio += precio * 0.35;
+            }
+            return precio;
         }
     }
 }

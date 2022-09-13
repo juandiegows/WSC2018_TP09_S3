@@ -26,6 +26,22 @@ namespace WSC2018_TP09_S3.Helper
                 }
             };
         }
+
+        public static void Requerido(this PictureBox text)
+        {
+
+            text.Validating += (sender, e) =>
+            {
+                Error.SetError(text, "");
+
+                if (text.Image == null)
+                {
+                    Error.SetError(text, "Este campo es obligatorio");
+                    e.Cancel = true;
+                    return;
+                }
+            };
+        }
         public static void SoloNumero(this TextBox text)
         {
            
