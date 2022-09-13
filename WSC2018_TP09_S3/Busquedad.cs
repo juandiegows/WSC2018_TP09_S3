@@ -307,7 +307,7 @@ namespace WSC2018_TP09_S3
                              }).FirstOrDefault();
 
                 this.Hide();
-                new ConfirmaReserva(vueloSalida, vueloRetorno, cabin).ShowDialog();
+                new ConfirmaReserva(vueloSalida, vueloRetorno, cabin, (int)nudPasaje.Value).ShowDialog();
                 this.Show();
           
             }

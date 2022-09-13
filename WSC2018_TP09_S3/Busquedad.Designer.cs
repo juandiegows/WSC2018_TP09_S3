@@ -86,7 +86,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(10, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(763, 228);
+            this.groupBox1.Size = new System.Drawing.Size(759, 228);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Paramentros de busquedad";
@@ -96,7 +96,7 @@
             this.btnAplicar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAplicar.ForeColor = System.Drawing.Color.Green;
-            this.btnAplicar.Location = new System.Drawing.Point(654, 182);
+            this.btnAplicar.Location = new System.Drawing.Point(650, 182);
             this.btnAplicar.Name = "btnAplicar";
             this.btnAplicar.Size = new System.Drawing.Size(103, 40);
             this.btnAplicar.TabIndex = 4;
@@ -109,7 +109,7 @@
             this.dtRegreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtRegreso.Location = new System.Drawing.Point(497, 136);
             this.dtRegreso.Name = "dtRegreso";
-            this.dtRegreso.Size = new System.Drawing.Size(227, 27);
+            this.dtRegreso.Size = new System.Drawing.Size(227, 32);
             this.dtRegreso.TabIndex = 3;
             // 
             // dtSalida
@@ -117,7 +117,7 @@
             this.dtSalida.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtSalida.Location = new System.Drawing.Point(123, 140);
             this.dtSalida.Name = "dtSalida";
-            this.dtSalida.Size = new System.Drawing.Size(227, 27);
+            this.dtSalida.Size = new System.Drawing.Size(227, 32);
             this.dtSalida.TabIndex = 3;
             // 
             // rbIda
@@ -125,7 +125,7 @@
             this.rbIda.AutoSize = true;
             this.rbIda.Location = new System.Drawing.Point(464, 96);
             this.rbIda.Name = "rbIda";
-            this.rbIda.Size = new System.Drawing.Size(88, 25);
+            this.rbIda.Size = new System.Drawing.Size(109, 27);
             this.rbIda.TabIndex = 2;
             this.rbIda.Text = "Solo ida\r\n";
             this.rbIda.UseVisualStyleBackColor = true;
@@ -136,7 +136,7 @@
             this.rbRetorno.Checked = true;
             this.rbRetorno.Location = new System.Drawing.Point(370, 96);
             this.rbRetorno.Name = "rbRetorno";
-            this.rbRetorno.Size = new System.Drawing.Size(90, 25);
+            this.rbRetorno.Size = new System.Drawing.Size(107, 27);
             this.rbRetorno.TabIndex = 2;
             this.rbRetorno.TabStop = true;
             this.rbRetorno.Text = "Retorno";
@@ -148,7 +148,7 @@
             this.cmbDestino.FormattingEnabled = true;
             this.cmbDestino.Location = new System.Drawing.Point(440, 42);
             this.cmbDestino.Name = "cmbDestino";
-            this.cmbDestino.Size = new System.Drawing.Size(227, 29);
+            this.cmbDestino.Size = new System.Drawing.Size(227, 31);
             this.cmbDestino.TabIndex = 1;
             // 
             // cmbCabina
@@ -156,7 +156,7 @@
             this.cmbCabina.FormattingEnabled = true;
             this.cmbCabina.Location = new System.Drawing.Point(123, 92);
             this.cmbCabina.Name = "cmbCabina";
-            this.cmbCabina.Size = new System.Drawing.Size(227, 29);
+            this.cmbCabina.Size = new System.Drawing.Size(227, 31);
             this.cmbCabina.TabIndex = 1;
             // 
             // cmbOrigen
@@ -164,7 +164,7 @@
             this.cmbOrigen.FormattingEnabled = true;
             this.cmbOrigen.Location = new System.Drawing.Point(123, 42);
             this.cmbOrigen.Name = "cmbOrigen";
-            this.cmbOrigen.Size = new System.Drawing.Size(227, 29);
+            this.cmbOrigen.Size = new System.Drawing.Size(227, 31);
             this.cmbOrigen.TabIndex = 1;
             // 
             // lblRegreso
@@ -172,7 +172,7 @@
             this.lblRegreso.AutoSize = true;
             this.lblRegreso.Location = new System.Drawing.Point(366, 140);
             this.lblRegreso.Name = "lblRegreso";
-            this.lblRegreso.Size = new System.Drawing.Size(125, 21);
+            this.lblRegreso.Size = new System.Drawing.Size(156, 23);
             this.lblRegreso.TabIndex = 0;
             this.lblRegreso.Text = "Fecha Regreso";
             // 
@@ -181,7 +181,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(7, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 21);
+            this.label4.Size = new System.Drawing.Size(138, 23);
             this.label4.TabIndex = 0;
             this.label4.Text = "Fecha Salida\r\n";
             // 
@@ -190,7 +190,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(366, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 21);
+            this.label2.Size = new System.Drawing.Size(81, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Destino";
             // 
@@ -199,7 +199,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(7, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 21);
+            this.label3.Size = new System.Drawing.Size(124, 23);
             this.label3.TabIndex = 0;
             this.label3.Text = "Tipo cabina";
             // 
@@ -208,7 +208,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 21);
+            this.label1.Size = new System.Drawing.Size(74, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Origen";
             // 
@@ -219,7 +219,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(10, 238);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(763, 221);
+            this.panel1.Size = new System.Drawing.Size(759, 221);
             this.panel1.TabIndex = 1;
             // 
             // groupBox2
@@ -231,7 +231,7 @@
             this.groupBox2.Location = new System.Drawing.Point(11, 28);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(10, 10, 20, 10);
-            this.groupBox2.Size = new System.Drawing.Size(746, 190);
+            this.groupBox2.Size = new System.Drawing.Size(742, 190);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Detalle de vuelo de salida";
@@ -241,20 +241,21 @@
             this.dgvSalida.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvSalida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSalida.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvSalida.Location = new System.Drawing.Point(10, 30);
+            this.dgvSalida.Location = new System.Drawing.Point(10, 35);
             this.dgvSalida.MultiSelect = false;
             this.dgvSalida.Name = "dgvSalida";
+            this.dgvSalida.RowHeadersWidth = 51;
             this.dgvSalida.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSalida.Size = new System.Drawing.Size(716, 150);
+            this.dgvSalida.Size = new System.Drawing.Size(712, 145);
             this.dgvSalida.TabIndex = 0;
             // 
             // cb3diasSalida
             // 
             this.cb3diasSalida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cb3diasSalida.AutoSize = true;
-            this.cb3diasSalida.Location = new System.Drawing.Point(482, 6);
+            this.cb3diasSalida.Location = new System.Drawing.Point(405, 6);
             this.cb3diasSalida.Name = "cb3diasSalida";
-            this.cb3diasSalida.Size = new System.Drawing.Size(275, 25);
+            this.cb3diasSalida.Size = new System.Drawing.Size(348, 27);
             this.cb3diasSalida.TabIndex = 0;
             this.cb3diasSalida.Text = "Visualizar 3 dias antes y después";
             this.cb3diasSalida.UseVisualStyleBackColor = true;
@@ -267,7 +268,7 @@
             this.PRegreso.Dock = System.Windows.Forms.DockStyle.Top;
             this.PRegreso.Location = new System.Drawing.Point(10, 459);
             this.PRegreso.Name = "PRegreso";
-            this.PRegreso.Size = new System.Drawing.Size(763, 221);
+            this.PRegreso.Size = new System.Drawing.Size(759, 221);
             this.PRegreso.TabIndex = 2;
             // 
             // groupBox3
@@ -279,7 +280,7 @@
             this.groupBox3.Location = new System.Drawing.Point(11, 28);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(10, 10, 20, 10);
-            this.groupBox3.Size = new System.Drawing.Size(746, 190);
+            this.groupBox3.Size = new System.Drawing.Size(742, 190);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Detalle de vuelo de regreso";
@@ -289,20 +290,21 @@
             this.dgvRegreso.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvRegreso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRegreso.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvRegreso.Location = new System.Drawing.Point(10, 30);
+            this.dgvRegreso.Location = new System.Drawing.Point(10, 35);
             this.dgvRegreso.MultiSelect = false;
             this.dgvRegreso.Name = "dgvRegreso";
+            this.dgvRegreso.RowHeadersWidth = 51;
             this.dgvRegreso.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvRegreso.Size = new System.Drawing.Size(716, 150);
+            this.dgvRegreso.Size = new System.Drawing.Size(712, 145);
             this.dgvRegreso.TabIndex = 1;
             // 
             // cbRegreso
             // 
             this.cbRegreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbRegreso.AutoSize = true;
-            this.cbRegreso.Location = new System.Drawing.Point(482, 3);
+            this.cbRegreso.Location = new System.Drawing.Point(405, 3);
             this.cbRegreso.Name = "cbRegreso";
-            this.cbRegreso.Size = new System.Drawing.Size(275, 25);
+            this.cbRegreso.Size = new System.Drawing.Size(348, 27);
             this.cbRegreso.TabIndex = 0;
             this.cbRegreso.Text = "Visualizar 3 dias antes y después";
             this.cbRegreso.UseVisualStyleBackColor = true;
@@ -315,7 +317,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(10, 680);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(763, 162);
+            this.panel2.Size = new System.Drawing.Size(759, 162);
             this.panel2.TabIndex = 3;
             // 
             // groupBox4
@@ -324,7 +326,7 @@
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.btnReservar);
             this.groupBox4.Controls.Add(this.nudPasaje);
-            this.groupBox4.Location = new System.Drawing.Point(99, 33);
+            this.groupBox4.Location = new System.Drawing.Point(97, 33);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(473, 103);
             this.groupBox4.TabIndex = 6;
@@ -336,7 +338,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(93, 51);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 21);
+            this.label5.Size = new System.Drawing.Size(93, 23);
             this.label5.TabIndex = 1;
             this.label5.Text = "Pasajero";
             // 
@@ -357,7 +359,7 @@
             // 
             this.nudPasaje.Location = new System.Drawing.Point(24, 49);
             this.nudPasaje.Name = "nudPasaje";
-            this.nudPasaje.Size = new System.Drawing.Size(63, 27);
+            this.nudPasaje.Size = new System.Drawing.Size(63, 32);
             this.nudPasaje.TabIndex = 0;
             // 
             // btnExit
@@ -365,7 +367,7 @@
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.ForeColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(654, 109);
+            this.btnExit.Location = new System.Drawing.Point(650, 109);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(103, 40);
             this.btnExit.TabIndex = 5;

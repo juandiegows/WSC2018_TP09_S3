@@ -24,5 +24,13 @@ namespace WSC2018_TP09_S3
         {
 
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("¿está seguro que desea cerrar?", "ALerta", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

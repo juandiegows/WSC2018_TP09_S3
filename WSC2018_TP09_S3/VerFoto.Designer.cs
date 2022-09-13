@@ -31,6 +31,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 351);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 21);
+            this.label1.Size = new System.Drawing.Size(294, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Este pasaporte pertenece a ";
             // 
@@ -60,14 +61,28 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Location = new System.Drawing.Point(13, 386);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(57, 21);
+            this.lblNombre.Size = new System.Drawing.Size(72, 23);
             this.lblNombre.TabIndex = 3;
             this.lblNombre.Text = "label3";
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.ForeColor = System.Drawing.Color.Red;
+            this.btnCerrar.Location = new System.Drawing.Point(220, 389);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(92, 39);
+            this.btnCerrar.TabIndex = 4;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // VerFoto
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(324, 440);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -87,5 +102,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }

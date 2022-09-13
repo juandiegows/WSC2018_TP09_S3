@@ -15,9 +15,12 @@ namespace WSC2018_TP09_S3
     public partial class ConfirmaReserva : Form
     {
         List<UsuarioView> usuarios = new List<UsuarioView>();
-        public ConfirmaReserva(VueloView vueloSalida, VueloView vueloRegreso, CabinTypes cabin)
+        int Cantidad = 1;
+        public ConfirmaReserva(VueloView vueloSalida, VueloView vueloRegreso, CabinTypes cabin, int cant= 1)
         {
             InitializeComponent();
+            Cantidad = cant;
+            this.Text = $"Confirmar reserva ({Cantidad} pasajeros restantes)";
             if (!(vueloSalida is null))
             {
                 lblCabinaD.Text = cabin.Name;
@@ -81,14 +84,20 @@ namespace WSC2018_TP09_S3
                     Apellidos = txtApellido.Text,
                     Fecha = dtFecha.Value,
                     Numero = txtPassport.Text,
-                     Pais = cmbPais.SelectedText,
-                     Photo = PBImagen.Image,
-                     Telefono = txtTelefono.Text
+                    Pais = cmbPais.SelectedText,
+                    Photo = PBImagen.Image,
+                    Telefono = txtTelefono.Text
 
                 });
                 DTUser.DataSource = usuarios;
                 DTUser.Columns[6].Visible = false;
-                DTUser.Columns.Add("Ver", "Ver Foto");
+                DTUser.Columns.Add(new DataGridViewButtonColumn()
+                {
+                   
+                    HeaderText = "Ver Foto",
+                    UseColumnTextForButtonValue = true
+                });
+            
             }
         }
 
