@@ -38,5 +38,39 @@ namespace WSC2018_TP09_S3.Helper
                 }
             };
         }
+        public static void ClearAll(this Form form)
+        {
+            ClearAllItem(form.Controls);
+        }
+
+        private static void ClearAllItem(Control.ControlCollection item)
+        {
+            foreach (var item2 in item)
+            {
+                if (item2 is TextBox)
+                {
+                    (item2 as TextBox).Text = "";
+                }
+                if (item2 is PictureBox)
+                {
+                    (item2 as PictureBox).Image = null;
+                }
+                if (item2 is Panel)
+                {
+                    ClearAllItem((item2 as Panel).Controls);
+          
+                }
+                if (item2 is GroupBox)
+                {
+                    ClearAllItem((item2 as GroupBox).Controls);
+
+                }
+                if (item2 is FlowLayoutPanel)
+                {
+                    ClearAllItem((item2 as FlowLayoutPanel).Controls);
+
+                }
+            }
+        }
     }
 }

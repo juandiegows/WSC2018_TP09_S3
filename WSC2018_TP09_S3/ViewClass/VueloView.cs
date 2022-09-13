@@ -5,12 +5,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WSC2018_TP09_S3.Helper;
 
 namespace WSC2018_TP09_S3.ViewClass
 {
     public class VueloView
     {
-
+       
         public int ID { get; set; }
         public string Origen { get; set; }
         public string Destino { get; set; }

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -21,12 +22,12 @@ namespace WSC2018_TP09_S3
         ErrorProvider errorProvider = new ErrorProvider();
         private void Busquedad_Load(object sender, EventArgs e)
         {
+
             FillComboCabina();
             FillComboOrigen();
             FilllComboDestino();
 
             FillTableSalida();
-            Console.WriteLine(Environment.CurrentDirectory);
         }
 
         private void FillTableSalida()
